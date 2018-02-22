@@ -1,9 +1,9 @@
 'use strict';
 
 function theBeatlesPlay(musicians, instruments) {
-  var array = [];
+  var phrases = [];
   for (var i=0; i<musicians.length; i++) {
-    array.push(musicians[i] + "plays" + instruments[i]);
+    phrases.push(musicians[i] + "plays" + instruments[i]);
   }
-  return array;
+  return phrases;
 }
